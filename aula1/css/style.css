@@ -1,0 +1,67 @@
+*{
+    background-color: #1b1d2b;
+}
+
+#caixa form input{
+    background-color: #F12C4C;
+    border-color: #F12C4C;
+    box-shadow: none;
+    border-radius: 50px;
+    color: azure;
+}
+
+input::-webkit-file-outer-spin-button,
+input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+#caixa form select{
+    background-color: #F12C4C;
+    border-color: #F12C4C;
+    box-shadow: none;
+    border-radius: 50px;
+    color: azure;
+}
+
+#caixa form select option{
+    background-color: #F12C4C;
+    border-color: #F12C4C;
+    box-shadow: none;
+    border-radius: 50px;
+    color: azure;
+}
+
+#caixa form button{
+    background-color: #F12C4C;
+    border-color: #F12C4C;
+    box-shadow: none;
+    border-radius: 50px;
+    color: azure;
+}
+
+#caixa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    flex-direction: column;
+    position: inherit;
+}
+
+body #top{
+    color: azure;
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 0 0 0px;
+    gap: 20px;
+}
+
+#caixa h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    color: azure;
+
+}
